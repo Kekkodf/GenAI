@@ -1,0 +1,14 @@
+name: GenAI
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - requests
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip:
+    - groq
+    - tqdm
