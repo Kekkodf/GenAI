@@ -1,4 +1,4 @@
-# GenAI PhD Course
+# Preserving Privacy in the Age of Large Language Models
 
 This repository contains the material for the GenAI PhD course exam.
 

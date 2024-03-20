@@ -2,7 +2,7 @@ import json
 import pandas
     
 def main():
-    path = './data/boolQ_dataset/'
+    path = './data/boolQ/'
     #open the json file using pandas
     with open(path+'train.jsonl') as f:
         json_list = list(f)
@@ -24,8 +24,8 @@ def main():
     #add column with id
     df.insert(0, 'id', range(1, 1 + len(df)))
     #save the final dataframe
-    df.to_csv(path+'dataset_boolQ.csv', index=False)
-    print(df.describe())
+    df.to_csv(path+'boolQ.csv', index=False)
+    print(df.info())
 
 if __name__ == '__main__':
     main()
