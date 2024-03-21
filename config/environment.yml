@@ -12,3 +12,4 @@ dependencies:
   - pip:
     - groq
     - tqdm
+    - scipy
