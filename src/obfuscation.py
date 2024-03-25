@@ -59,7 +59,8 @@ def main():
     #obfuscate the dataset
     for mech_obj in mech_objs:
         logger.info(f"Obfuscating dataset with mechanism {mech_obj}")
-        df['obfuscated_question'] = df['question'].progress_apply(partial(mech_obj.obfuscate))
+        for q in df['question']:
+            df[q] = mech_obj.obfuscate(q)
         df.to_csv(f'./data/boolQ/obfuscated/{mech_obj.__class__.__name__}/{mech_obj.epsilon}.csv', index=False)
     logger.info("Obfuscation finished")
 
