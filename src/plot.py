@@ -39,7 +39,7 @@ for model in models:
         precision_mahalanobis = realResponses['correct_mahalanobis'].mean()
         avg_precision_mahalanobis[model].append(precision_mahalanobis)
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 5))
 colors = sns.color_palette('colorblind', n_colors=len(models))
 
 for i, model in enumerate(models):
@@ -58,7 +58,9 @@ for i, model in enumerate(models):
 
 plt.xlabel(r'$\varepsilon$')
 plt.ylabel('Average Precision')
-plt.legend(loc='best')
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.tight_layout()
+plt.grid(False)
 
 # Save the plot as a PDF file
 plt.savefig('output/average_precision_plot.pdf', bbox_inches='tight', format='pdf')
