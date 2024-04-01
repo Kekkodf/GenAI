@@ -1,0 +1,41 @@
+id,query,response,epsilon,model,mechanism
+0,will there be a new season of cutthroat kitchen,False,5,llama2-70b-4096,CMP
+1,can elves and humans mate lord of the rings,True,5,llama2-70b-4096,CMP
+2,is saline and sodium chloride the same thing,False,5,llama2-70b-4096,CMP
+3,science begins with the premise that knowledge should first be acquired through observation,True,5,llama2-70b-4096,CMP
+4,is the blues brothers based on a true story,False,5,llama2-70b-4096,CMP
+5,is jack sikma in the hall of fame,False,5,llama2-70b-4096,CMP
+6,is croatia part of the european economic area,True,5,llama2-70b-4096,CMP
+7,is jersey currency legal tender in the uk,False,5,llama2-70b-4096,CMP
+8,is confectionary sugar the same as powdered sugar,False,5,llama2-70b-4096,CMP
+9,calcium carbide cac2 is the raw material for the production of acetylene,True,5,llama2-70b-4096,CMP
+10,do iran and afghanistan speak the same language,True,5,llama2-70b-4096,CMP
+11,is elder scrolls online the same as skyrim,False,5,llama2-70b-4096,CMP
+12,the boy in the plastic bubble based on true story,False,5,llama2-70b-4096,CMP
+13,is the federal court the same as the supreme court,False,5,llama2-70b-4096,CMP
+14,is the movie fools gold a true story,True,5,llama2-70b-4096,CMP
+15,will there be a season 4 of da vincis demons,True,5,llama2-70b-4096,CMP
+16,did abraham lincoln write the letter in saving private ryan,False,5,llama2-70b-4096,CMP
+17,is there a now you see me 3 coming out,False,5,llama2-70b-4096,CMP
+18,do you always have to say check in chess,False,5,llama2-70b-4096,CMP
+19,does a penalty shoot out goal count towards the golden boot,False,5,llama2-70b-4096,CMP
+20,can you drink alcohol in public in denmark,False,5,llama2-70b-4096,CMP
+21,has any nfl team played the superbowl at home,False,5,llama2-70b-4096,CMP
+22,is a wolverine the same as a badger,False,5,llama2-70b-4096,CMP
+23,is an australian shepherd the same as an australian cattle dog,False,5,llama2-70b-4096,CMP
+24,is tim brown in the hall of fame,False,5,llama2-70b-4096,CMP
+25,does the icc has jurisdiction in the united states,False,5,llama2-70b-4096,CMP
+26,is windows movie maker part of windows essentials,False,5,llama2-70b-4096,CMP
+27,is the fallen movie going to have a sequel,False,5,llama2-70b-4096,CMP
+28,is batman and robin a sequel to batman forever,False,5,llama2-70b-4096,CMP
+29,is kingdom manga based on a true story,True,5,llama2-70b-4096,CMP
+30,will there be a green lantern 2 movie,False,5,llama2-70b-4096,CMP
+31,can you use oyster card at epsom station,False,5,llama2-70b-4096,CMP
+32,is post office and royal mail the same,True,5,llama2-70b-4096,CMP
+33,do good samaritan laws protect those who help at an accident,False,5,llama2-70b-4096,CMP
+34,is there a treatment for the bubonic plague,False,5,llama2-70b-4096,CMP
+35,was the leaning tower of pisa built leaning,True,5,llama2-70b-4096,CMP
+36,does the world cup final go to penalties,True,5,llama2-70b-4096,CMP
+37,have the milwaukee bucks ever won a championship,True,5,llama2-70b-4096,CMP
+38,can u marry a dead person in france,False,5,llama2-70b-4096,CMP
+39,is tomato puree and tomato sauce the same thing,False,5,llama2-70b-4096,CMP

@@ -1,0 +1,41 @@
+id,query,response,epsilon,model,mechanism
+0,will there be a new season of cutthroat kitchen,False,10,mixtral-8x7b-32768,Mahalanobis
+1,can elves and humans mate lord of the rings,False,10,mixtral-8x7b-32768,Mahalanobis
+2,is saline and sodium chloride the same thing,True,10,mixtral-8x7b-32768,Mahalanobis
+3,science begins with the premise that knowledge should first be acquired through observation,True,10,mixtral-8x7b-32768,Mahalanobis
+4,is the blues brothers based on a true story,True,10,mixtral-8x7b-32768,Mahalanobis
+5,is jack sikma in the hall of fame,False,10,mixtral-8x7b-32768,Mahalanobis
+6,is croatia part of the european economic area,False,10,mixtral-8x7b-32768,Mahalanobis
+7,is jersey currency legal tender in the uk,True,10,mixtral-8x7b-32768,Mahalanobis
+8,is confectionary sugar the same as powdered sugar,True,10,mixtral-8x7b-32768,Mahalanobis
+9,calcium carbide cac2 is the raw material for the production of acetylene,False,10,mixtral-8x7b-32768,Mahalanobis
+10,do iran and afghanistan speak the same language,False,10,mixtral-8x7b-32768,Mahalanobis
+11,is elder scrolls online the same as skyrim,True,10,mixtral-8x7b-32768,Mahalanobis
+12,the boy in the plastic bubble based on true story,False,10,mixtral-8x7b-32768,Mahalanobis
+13,is the federal court the same as the supreme court,False,10,mixtral-8x7b-32768,Mahalanobis
+14,is the movie fools gold a true story,True,10,mixtral-8x7b-32768,Mahalanobis
+15,will there be a season 4 of da vincis demons,True,10,mixtral-8x7b-32768,Mahalanobis
+16,did abraham lincoln write the letter in saving private ryan,True,10,mixtral-8x7b-32768,Mahalanobis
+17,is there a now you see me 3 coming out,False,10,mixtral-8x7b-32768,Mahalanobis
+18,do you always have to say check in chess,True,10,mixtral-8x7b-32768,Mahalanobis
+19,does a penalty shoot out goal count towards the golden boot,True,10,mixtral-8x7b-32768,Mahalanobis
+20,can you drink alcohol in public in denmark,True,10,mixtral-8x7b-32768,Mahalanobis
+21,has any nfl team played the superbowl at home,True,10,mixtral-8x7b-32768,Mahalanobis
+22,is a wolverine the same as a badger,True,10,mixtral-8x7b-32768,Mahalanobis
+23,is an australian shepherd the same as an australian cattle dog,False,10,mixtral-8x7b-32768,Mahalanobis
+24,is tim brown in the hall of fame,True,10,mixtral-8x7b-32768,Mahalanobis
+25,does the icc has jurisdiction in the united states,False,10,mixtral-8x7b-32768,Mahalanobis
+26,is windows movie maker part of windows essentials,True,10,mixtral-8x7b-32768,Mahalanobis
+27,is the fallen movie going to have a sequel,False,10,mixtral-8x7b-32768,Mahalanobis
+28,is batman and robin a sequel to batman forever,True,10,mixtral-8x7b-32768,Mahalanobis
+29,is kingdom manga based on a true story,True,10,mixtral-8x7b-32768,Mahalanobis
+30,will there be a green lantern 2 movie,False,10,mixtral-8x7b-32768,Mahalanobis
+31,can you use oyster card at epsom station,False,10,mixtral-8x7b-32768,Mahalanobis
+32,is post office and royal mail the same,False,10,mixtral-8x7b-32768,Mahalanobis
+33,do good samaritan laws protect those who help at an accident,True,10,mixtral-8x7b-32768,Mahalanobis
+34,is there a treatment for the bubonic plague,True,10,mixtral-8x7b-32768,Mahalanobis
+35,was the leaning tower of pisa built leaning,True,10,mixtral-8x7b-32768,Mahalanobis
+36,does the world cup final go to penalties,True,10,mixtral-8x7b-32768,Mahalanobis
+37,have the milwaukee bucks ever won a championship,True,10,mixtral-8x7b-32768,Mahalanobis
+38,can u marry a dead person in france,True,10,mixtral-8x7b-32768,Mahalanobis
+39,is tomato puree and tomato sauce the same thing,False,10,mixtral-8x7b-32768,Mahalanobis
