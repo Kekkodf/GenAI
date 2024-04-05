@@ -1,41 +1,41 @@
-text,obfuscatedText,mechanism
-will there be a new season of cutthroat kitchen,will there be a new season of cutthroat kitchen,CMP
-can elves and humans mate lord of the rings,can elves and humans mate lord of the rings,CMP
-is saline and sodium chloride the same thing,is saline and sodium chloride the same thing,CMP
-science begins with the premise that knowledge should first be acquired through observation,science begins with the premise that knowledge should first be acquired through observation,CMP
-is the blues brothers based on a true story,is the blues brothers based on a true story,CMP
-is jack sikma in the hall of fame,is jack sikma in the hall of fame,CMP
-is croatia part of the european economic area,is croatia part of the european economic area,CMP
-is jersey currency legal tender in the uk,is jersey currency legal tender in the uk,CMP
-is confectionary sugar the same as powdered sugar,is confectionary sugar the same as powdered sugar,CMP
-calcium carbide cac2 is the raw material for the production of acetylene,calcium carbide isochron is the raw material for the production of acetylene,CMP
-do iran and afghanistan speak the same language,do iran and afghanistan speak the same language,CMP
-is elder scrolls online the same as skyrim,is elder scrolls online the same as hippy,CMP
-the boy in the plastic bubble based on true story,the boy in the plastic bubble based on true story,CMP
-is the federal court the same as the supreme court,is the federal court the same as the supreme court,CMP
-is the movie fools gold a true story,is the movie fools gold a true story,CMP
-will there be a season 4 of da vincis demons,will there be a season 4 of da dragoslav demons,CMP
-did abraham lincoln write the letter in saving private ryan,did abraham lincoln write the letter in saving private ryan,CMP
-is there a now you see me 3 coming out,is there a now you see me 3 coming out,CMP
-do you always have to say check in chess,do you always have to say check in chess,CMP
-does a penalty shoot out goal count towards the golden boot,does a penalty shoot out goal count towards the golden boot,CMP
-can you drink alcohol in public in denmark,can you drink alcohol in public in denmark,CMP
-has any nfl team played the superbowl at home,has any nfl team played the superbowl at home,CMP
-is a wolverine the same as a badger,is a wolverine the same as a badger,CMP
-is an australian shepherd the same as an australian cattle dog,is an australian shepherd the same as an australian cattle dog,CMP
-is tim brown in the hall of fame,is tim brown in the hall of fame,CMP
-does the icc has jurisdiction in the united states,does the icc has jurisdiction in the united states,CMP
-is windows movie maker part of windows essentials,is windows movie maker part of windows essentials,CMP
-is the fallen movie going to have a sequel,is the fallen movie going to have a sequel,CMP
-is batman and robin a sequel to batman forever,is batman and robin a sequel to batman forever,CMP
-is kingdom manga based on a true story,is kingdom manga based on a true story,CMP
-will there be a green lantern 2 movie,will there be a green lantern 2 movie,CMP
-can you use oyster card at epsom station,can you use oyster card at epsom station,CMP
-is post office and royal mail the same,is post office and royal mail the same,CMP
-do good samaritan laws protect those who help at an accident,do good samaritan laws protect those who help at an accident,CMP
-is there a treatment for the bubonic plague,is there a treatment for the bubonic plague,CMP
-was the leaning tower of pisa built leaning,was the leaning tower of pisa built leaning,CMP
-does the world cup final go to penalties,does the world cup final go to penalties,CMP
-have the milwaukee bucks ever won a championship,have the milwaukee bucks ever won a championship,CMP
-can u marry a dead person in france,can u marry a dead person in france,CMP
-is tomato puree and tomato sauce the same thing,is tomato puree and tomato sauce the same thing,CMP
+id,question,obfuscatedQuestion,mechanism
+1,will there be a new season of cutthroat kitchen,will there be a new season of cutthroat kitchen,CMP
+2,can elves and humans mate lord of the rings,can elves and humans mate lord of the rings,CMP
+3,is saline and sodium chloride the same thing,is saline and sodium chloride the same thing,CMP
+4,science begins with the premise that knowledge should first be acquired through observation,science begins with the premise that knowledge should first be acquired through observation,CMP
+5,is the blues brothers based on a true story,is the blues brothers based on a true story,CMP
+6,is jack sikma in the hall of fame,is jack sikma in the hall of fame,CMP
+7,is croatia part of the european economic area,is croatia part of the european economic area,CMP
+8,is jersey currency legal tender in the uk,is jersey currency legal tender in the uk,CMP
+9,is confectionary sugar the same as powdered sugar,is confectionary sugar the same as powdered sugar,CMP
+10,calcium carbide cac2 is the raw material for the production of acetylene,calcium carbide isochron is the raw material for the production of acetylene,CMP
+11,do iran and afghanistan speak the same language,do iran and afghanistan speak the same language,CMP
+12,is elder scrolls online the same as skyrim,is elder scrolls online the same as hippy,CMP
+13,the boy in the plastic bubble based on true story,the boy in the plastic bubble based on true story,CMP
+14,is the federal court the same as the supreme court,is the federal court the same as the supreme court,CMP
+15,is the movie fools gold a true story,is the movie fools gold a true story,CMP
+16,will there be a season 4 of da vincis demons,will there be a season 4 of da dragoslav demons,CMP
+17,did abraham lincoln write the letter in saving private ryan,did abraham lincoln write the letter in saving private ryan,CMP
+18,is there a now you see me 3 coming out,is there a now you see me 3 coming out,CMP
+19,do you always have to say check in chess,do you always have to say check in chess,CMP
+20,does a penalty shoot out goal count towards the golden boot,does a penalty shoot out goal count towards the golden boot,CMP
+21,can you drink alcohol in public in denmark,can you drink alcohol in public in denmark,CMP
+22,has any nfl team played the superbowl at home,has any nfl team played the superbowl at home,CMP
+23,is a wolverine the same as a badger,is a wolverine the same as a badger,CMP
+24,is an australian shepherd the same as an australian cattle dog,is an australian shepherd the same as an australian cattle dog,CMP
+25,is tim brown in the hall of fame,is tim brown in the hall of fame,CMP
+26,does the icc has jurisdiction in the united states,does the icc has jurisdiction in the united states,CMP
+27,is windows movie maker part of windows essentials,is windows movie maker part of windows essentials,CMP
+28,is the fallen movie going to have a sequel,is the fallen movie going to have a sequel,CMP
+29,is batman and robin a sequel to batman forever,is batman and robin a sequel to batman forever,CMP
+30,is kingdom manga based on a true story,is kingdom manga based on a true story,CMP
+31,will there be a green lantern 2 movie,will there be a green lantern 2 movie,CMP
+32,can you use oyster card at epsom station,can you use oyster card at epsom station,CMP
+33,is post office and royal mail the same,is post office and royal mail the same,CMP
+34,do good samaritan laws protect those who help at an accident,do good samaritan laws protect those who help at an accident,CMP
+35,is there a treatment for the bubonic plague,is there a treatment for the bubonic plague,CMP
+36,was the leaning tower of pisa built leaning,was the leaning tower of pisa built leaning,CMP
+37,does the world cup final go to penalties,does the world cup final go to penalties,CMP
+38,have the milwaukee bucks ever won a championship,have the milwaukee bucks ever won a championship,CMP
+39,can u marry a dead person in france,can u marry a dead person in france,CMP
+40,is tomato puree and tomato sauce the same thing,is tomato puree and tomato sauce the same thing,CMP
