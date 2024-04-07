@@ -6,6 +6,9 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.5})
 
+plt.rcParams['xtick.labelsize'] = 16
+plt.rcParams['ytick.labelsize'] = 16
+
 realResponses = pd.read_csv('data/obfuscated/obfuscatedTestRun_CMP_5.csv')
 # Keep only unique ids
 realResponses = realResponses.drop_duplicates(subset='question').reset_index(drop=True)
@@ -60,32 +63,26 @@ for model in models:
         # Append the results to the dataframe
         df = pd.concat([df, temp], ignore_index=True)
 
+df['model'] = df['model'].map({'mixtral-8x7b-32768': 'Mixtral', 
+                               'gemma-7b-it': 'Gemma', 
+                               'llama2-70b-4096': 'Llama2'})
+
 # Save the results to a CSV file
 df.to_csv('output/average_precision.csv', index=False)
 
-plt.figure(figsize=(15, 8))
-colors = sns.color_palette('colorblind', n_colors=len(models))
+# Plot the results
 
-for i, model in enumerate(models):
-    color = colors[i]
-    if model == 'llama2-70b-4096':
-        model_label = 'Llama2'
-    elif model == 'gemma-7b-it':
-        model_label = 'Gemma'
-    elif model == 'mixtral-8x7b-32768':
-        model_label = 'Mixtral'
-    else:
-        model_label = model
-    
-    plt.plot(eps, avg_precision_cmp[model], linestyle=':', marker='o', color=color, label=f'{model_label} (CMP)')
-    plt.plot(eps, avg_precision_mahalanobis[model], linestyle='-', marker='s', color=color, label=f'{model_label} (Mahalanobis)')
+fig = plt.figure(figsize=(15, 8))
+ax = sns.lineplot(x='epsilon', y='precision', hue='model', style='mechanism', data=df, markers=True, markersize=10)
 
-plt.xlabel(r'$\varepsilon$')
-plt.ylabel('Average Precision')
-plt.legend(loc='lower center', bbox_to_anchor=(0.5, -0.82), fancybox=False, shadow=False, ncol=2)
+h, l = ax.get_legend_handles_labels()
+l1 = plt.legend(h[1:4], l[1:4], title='Model', loc='center left', bbox_to_anchor=(1.02, 0.8))
+l2 = plt.legend(h[5:], l[5:], title='Mechanism', loc='center left', bbox_to_anchor=(1.02, 0.6))
+ax.add_artist(l1)
+ax.set_xlabel(r'$\varepsilon$', fontsize=20)
+ax.set_ylabel('Average Precision', fontsize=20)
 plt.tight_layout()
 plt.grid(False)
-
-# Save the plot as a PDF file
 plt.savefig('output/average_precision_plot.pdf', bbox_inches='tight', format='pdf')
 plt.show()
+
