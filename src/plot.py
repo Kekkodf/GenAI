@@ -6,8 +6,12 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.5})
 
-plt.rcParams['xtick.labelsize'] = 16
-plt.rcParams['ytick.labelsize'] = 16
+plt.rcParams['xtick.labelsize'] = 21
+plt.rcParams['ytick.labelsize'] = 21
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['axes.titlesize'] = 21
+plt.rcParams['legend.fontsize'] = 18
+plt.rcParams['legend.title_fontsize'] = 21
 
 realResponses = pd.read_csv('data/obfuscated/obfuscatedTestRun_CMP_5.csv')
 # Keep only unique ids
@@ -77,7 +81,7 @@ ax = sns.lineplot(x='epsilon', y='precision', hue='model', style='mechanism', da
 
 h, l = ax.get_legend_handles_labels()
 l1 = plt.legend(h[1:4], l[1:4], title='Model', loc='center left', bbox_to_anchor=(1.02, 0.8))
-l2 = plt.legend(h[5:], l[5:], title='Mechanism', loc='center left', bbox_to_anchor=(1.02, 0.6))
+l2 = plt.legend(h[5:], l[5:], title='Mechanism', loc='center left', bbox_to_anchor=(1.02, 0.55))
 ax.add_artist(l1)
 ax.set_xlabel(r'$\varepsilon$', fontsize=20)
 ax.set_ylabel('Average Precision', fontsize=20)
